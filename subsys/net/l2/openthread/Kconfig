@@ -115,11 +115,11 @@ config OPENTHREAD_PANID
 
 config OPENTHREAD_CHANNEL
 	int "Default Channel"
-	default 11
+	default 25
 
 config OPENTHREAD_NETWORK_NAME
 	string "Default network name"
-	default "ot_zephyr"
+	default "OpenThread"
 	help
 	  Network name for OpenThread
 
@@ -187,7 +187,7 @@ config OPENTHREAD_JOINER_AUTOSTART
 config OPENTHREAD_JOINER_PSKD
 	string "Default Pre Shared key for the Device to start joiner"
 	depends on OPENTHREAD_JOINER_AUTOSTART
-	default "J01NME"
+	default "J01NTHREAD"
 	help
 	  Pre Shared Key for the Device to start joiner
 
